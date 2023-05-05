@@ -1,4 +1,4 @@
-package com.springboot.firstrestapi.survey;
+package com.springboot.survey.survey;
 
 import org.springframework.stereotype.Service;
 
@@ -9,7 +9,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 @Service
 public class SurveyService {
@@ -96,5 +95,4 @@ public class SurveyService {
         questions.add(question);
         return true;
     }
-
 }

@@ -1,4 +1,4 @@
-package com.springboot.firstrestapi.user;
+package com.springboot.survey.user;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

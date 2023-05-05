@@ -1,4 +1,4 @@
-package com.springboot.firstrestapi.helloworld;
+package com.springboot.survey.helloworld;
 
 public class HelloWorldBean {
     private String message;

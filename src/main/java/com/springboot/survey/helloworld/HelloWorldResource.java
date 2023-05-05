@@ -1,4 +1,4 @@
-package com.springboot.firstrestapi.helloworld;
+package com.springboot.survey.helloworld;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

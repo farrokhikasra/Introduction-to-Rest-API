@@ -1,4 +1,4 @@
-package com.springboot.firstrestapi.user;
+package com.springboot.survey.user;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

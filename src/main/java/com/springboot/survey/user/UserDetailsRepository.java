@@ -1,4 +1,4 @@
-package com.springboot.firstrestapi.user;
+package com.springboot.survey.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

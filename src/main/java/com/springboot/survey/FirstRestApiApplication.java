@@ -1,4 +1,4 @@
-package com.springboot.firstrestapi;
+package com.springboot.survey;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

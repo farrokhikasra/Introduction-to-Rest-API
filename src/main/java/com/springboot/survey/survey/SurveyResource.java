@@ -1,4 +1,4 @@
-package com.springboot.firstrestapi.survey;
+package com.springboot.survey.survey;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -55,10 +55,8 @@ public class SurveyResource {
     @RequestMapping(value = "/survey/{surveyId}/questions", method = RequestMethod.POST)
     public ResponseEntity<Object> addNewSurveyQuestion(@PathVariable String surveyId, @RequestBody Question question) {
         String questionId = surveyService.addNewSurveyQuestion(surveyId, question);
-        URI uri = ServletUriComponentsBuilder.fromCurrentRequestUri().path("{questionId}").buildAndExpand(questionId).toUri();
+        URI uri = ServletUriComponentsBuilder.fromCurrentRequestUri().path("/{questionId}").buildAndExpand(questionId).toUri();
 //        URI uri = ServletUriComponentsBuilder.fromPath("/survey/" + surveyId + "/questions/" + questionId).build().toUri();
-        System.out.println("111111");
-        System.out.println(uri);
         return ResponseEntity.created(uri).build();
     }
 

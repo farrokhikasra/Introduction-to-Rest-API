@@ -1,4 +1,4 @@
-package com.springboot.firstrestapi.survey;
+package com.springboot.survey.survey;
 
 import java.util.List;
 
